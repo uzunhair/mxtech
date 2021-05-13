@@ -2,4 +2,22 @@
   &:hover {
     cursor: pointer;
   }
+  &-main {
+    font-size: 20px;
+    color: $white;
+    padding: 9px 30px;
+    width: 320px;
+    max-width: 100%;
+    border: 0 solid transparent;
+    background: linear-gradient(90deg, rgba(44, 90, 244, 0.7) 0%, rgba(164, 0, 255, 0.7) 91.2%);
+    transition: background-color 0.2s;
+    &:hover {
+      color: $white;
+      background: linear-gradient(90deg, #2C5AF4 98.85%, rgba(164, 0, 255, 0.8) 131.66%);
+    }
+    &:focus {
+      color: $white;
+      background: #020006;
+    }
+  }
 }

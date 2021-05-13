@@ -1,0 +1,45 @@
+.start {
+  background: #000000 url("../img/start.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+
+  @include media-breakpoint-up(md) {
+    text-align: center;
+  }
+
+  &__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 4rem;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-family: Gilroy, sans-serif;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+    @include media-breakpoint-up(xl) {
+      font-size: 48px;
+      margin-bottom: 14px;
+      max-width: 1044px;
+    }
+  }
+
+  &__desc {
+    color: rgba(255, 255, 255, 0.8);
+    @include media-breakpoint-up(xl) {
+      font-size: 18px;
+    }
+  }
+
+  &__footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+}

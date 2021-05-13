@@ -1,11 +1,11 @@
 {
-  "name": "kitdeveloper-package",
+  "name": "mxtech",
   "version": "1.0.2",
   "description": "A package for a quick start",
   "author": "Uzunhair Zainalabidov uzunhair@yandex.ru",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uzunhair/kitdeveloper-package.git"
+    "url": "https://github.com/uzunhair/mxtech.git"
   },
   "scripts": {
     "start": "gulp",
