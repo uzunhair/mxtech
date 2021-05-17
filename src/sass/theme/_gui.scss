@@ -34,3 +34,14 @@
 //    }
 //  }
 //}
+
+.section__title {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-size: 36px;
+  color: #FFFFFF;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 48px;
+  }
+}

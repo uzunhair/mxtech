@@ -18,13 +18,13 @@
 //@import "vendors/bootstrap/tables";
 @import "vendors/bootstrap/forms";
 @import "vendors/bootstrap/buttons";
-//@import "vendors/bootstrap/transitions";
+@import "vendors/bootstrap/transitions";
 //@import "vendors/bootstrap/dropdown";
 //@import "vendors/bootstrap/button-group";
 @import "vendors/bootstrap/nav";
 @import "vendors/bootstrap/navbar";
 //@import "vendors/bootstrap/card";
-//@import "vendors/bootstrap/accordion";
+@import "vendors/bootstrap/accordion";
 //@import "vendors/bootstrap/breadcrumb";
 //@import "vendors/bootstrap/pagination";
 //@import "vendors/bootstrap/badge";
@@ -50,14 +50,14 @@
 //@import "vendors/bootstrap/helpers/text-truncation";
 
 $utilities: map-get-multiple($utilities, (
-  //"display",
-  //"order",
+  "display",
+  "order",
   //"flex",
   //"flex-direction",
   //"flex-grow",
   //"flex-shrink",
   //"flex-wrap",
-  //"justify-content",
+  "justify-content",
   //"align-items",
   //"align-content",
   //"align-self",
@@ -66,7 +66,7 @@ $utilities: map-get-multiple($utilities, (
   //"margin-y",
   //"margin-top",
   //"margin-end",
-  //"margin-bottom",
+  "margin-bottom",
   "margin-start",
   //"negative-margin",
   //"negative-margin-x",
@@ -82,6 +82,7 @@ $utilities: map-get-multiple($utilities, (
   //"padding-end",
   //"padding-bottom",
   //"padding-start",
+  "text-align",
 ));
 // Utilities
 @import "vendors/bootstrap/utilities/api";

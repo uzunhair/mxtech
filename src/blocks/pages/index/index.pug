@@ -1,25 +1,66 @@
 extends ../../layout/page
 
 block variables
-	- var variable = index
+  - var variable = index
 
 block head
 
 block content
-	.start
-		include ../../sections/header/header
-		.container.start__body
-			h1.start__title Разрабатываем и поддерживаем финтех продукты для глобальных рынков с 2017 года
-			.start__desc Нашими продуктами пользуются тысячи пользователей по всему миру
-			.start__footer
-				a.btn.btn-main(href="#") Стать членом команды
+    .start
+        include ../../sections/header/header
+        .container.start__body
+            h1.start__title Разрабатываем и поддерживаем финтех продукты для глобальных рынков с 2017 года
+            .start__desc Нашими продуктами пользуются тысячи пользователей по всему миру
+            .start__footer
+                a.btn.btn-main(href="#") Стать членом команды
+    .whowe
+        .container
+            h2 Мы 100% продуктовая компания
+            div Это означает, что мы развиваем и улучшаем разрабатываемые продукты, они удовлетворяют реальные потребности тысяч пользователей
 
-	.container.pt-2
-		h1.bg-light.py-5.text-center Hello World!!!
+    .about
+        .container
+            h3    Наши продукты
+            div    Платёжный шлюз для приёма платежей в криптовалюте
+            div Брокерское решение для ритейл инвесторов и трейдеров
+            div Инвестиционная программа для ритейл инвесторов
 
-		+breadcrumb('Страница', ['Категория'])
+        .container
+            h3 Наша экспертиза
+            div Разработка высоконагруженных финтех решений любой сложности
+            div Разработка blockchain решений, смарт-контрактов на базе открытых протоколов
+            div PR сопровождение и маркетинг финтех продуктов на глобальном рынке
 
-		include ../../components/pagination/pagination
+    .stack
+        .container
+            h3    Наш технологический стек
+            div
+                div Языки программирования
+                ul.list-inline
+                    li Java
+                    li Dart
+                    li JavaScript
+            div
+                div DevOps
+                ul.list-inline
+                    li Docker
+                    li Kubernetis
+                    li Cloud servers
+            div
+                div Фронтэнд
+                ul.list-inline
+                    li ReactJS
+                    li Angular
+            div
+                div Базы данных
+                ul.list-inline
+                    li Redis
+                    li PostgreSQL
+
+    include ./worth/worth
+
+    include ./join-now/join-now
+
 
 block footer
 

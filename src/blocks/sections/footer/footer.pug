@@ -1,6 +1,17 @@
-footer.layout-footer.bg-white
+footer.layout-footer
 	.container
+		.footer__social
+			a.footer__social-item(href="#")
+				+icon("FB")
+				.footer__social-hover
+			a.footer__social-item(href="#")
+				+icon("IN")
+			a.footer__social-item(href="#")
+				+icon("TW")
+
+		.footer__copyright © 2017-2021 MXTech
+
 		block footer
 
-//-.d-none
-	include ../../img/svg/sprite.svg
+.d-none
+	include ../../../img/svg/sprite.svg
