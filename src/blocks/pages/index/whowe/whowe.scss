@@ -1,0 +1,56 @@
+.whowe {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  &__container {
+    position: relative;
+    padding: 5rem 0;
+    z-index: 1;
+    &:after {
+      content: "";
+      height: 100%;
+      width: 1366px;
+      position: absolute;
+      background: url("../img/whowe-2.svg") no-repeat -58px 50%;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+  }
+  &__elips {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    &:after {
+      content: "";
+      position: absolute;
+      height: 182px;
+      width: 182px;
+      background: url("../img/whowe-elips.svg") no-repeat center;
+      animation-name: rotation;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    max-width: 680px;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -35,13 +35,20 @@
 //  }
 //}
 
-.section__title {
-  font-family: 'Gilroy';
-  font-weight: 800;
-  font-size: 36px;
-  color: #FFFFFF;
+.section {
+  &__title {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
 
-  @include media-breakpoint-up(lg) {
-    font-size: 48px;
+    @include media-breakpoint-up(lg) {
+      font-size: 48px;
+    }
+  }
+
+  &__desc {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
   }
 }
