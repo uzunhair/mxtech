@@ -51,4 +51,14 @@
     font-size: 18px;
     color: rgba(255, 255, 255, 0.8);
   }
+
+  &__row {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  &__col {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

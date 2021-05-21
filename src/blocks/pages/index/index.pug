@@ -14,45 +14,8 @@ block content
             .start__footer
                 a.btn.btn-main(href="#") Стать членом команды
     include ./whowe/whowe
-    .about
-        .container
-            h3    Наши продукты
-            div    Платёжный шлюз для приёма платежей в криптовалюте
-            div Брокерское решение для ритейл инвесторов и трейдеров
-            div Инвестиционная программа для ритейл инвесторов
-
-        .container
-            h3 Наша экспертиза
-            div Разработка высоконагруженных финтех решений любой сложности
-            div Разработка blockchain решений, смарт-контрактов на базе открытых протоколов
-            div PR сопровождение и маркетинг финтех продуктов на глобальном рынке
-
-    .stack
-        .container
-            h3    Наш технологический стек
-            div
-                div Языки программирования
-                ul.list-inline
-                    li Java
-                    li Dart
-                    li JavaScript
-            div
-                div DevOps
-                ul.list-inline
-                    li Docker
-                    li Kubernetis
-                    li Cloud servers
-            div
-                div Фронтэнд
-                ul.list-inline
-                    li ReactJS
-                    li Angular
-            div
-                div Базы данных
-                ul.list-inline
-                    li Redis
-                    li PostgreSQL
-
+    include ./about/about
+    include ./stack/stack
     include ./worth/worth
 
     include ./join-now/join-now
