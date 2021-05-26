@@ -22,4 +22,81 @@
     list-style: none;
     padding-left: 0;
   }
+  &__rulet {
+    height: 300px;
+    width: 300px;
+    background: url("../img/rulet.svg") no-repeat center;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  &__animation {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__items {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  &__item {
+    position: absolute;
+    font-size: 30px;
+    color: #A400FF;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    &_postgresql {
+      top: -35px;
+      left: 0;
+      background: linear-gradient(270deg, rgba(164, 0, 255, 0.3) 0%, rgba(44, 90, 244, 0) 100%);
+
+      // background: linear-gradient(270deg, #ffffff, #000000);
+      //background-size: 400% 400%;
+      //animation: AnimationName 10s ease infinite;
+    }
+    &_reactjs {
+      right: -475px;
+      top: 20px;
+      font-size: 48px;
+      background: linear-gradient(270deg, rgba(44, 90, 244, 0) 9.16%, rgba(44, 90, 244, 0) 12.19%, rgba(164, 0, 255, 0.3) 97.09%);
+    }
+    &_kubernetis {
+      font-size: 18px;
+      top: 126px;
+      left: -60px;
+      background: linear-gradient(270deg, rgba(44, 90, 244, 0) 9.16%, rgba(164, 0, 255, 0.3) 30.9%, rgba(44, 90, 244, 0) 87.54%);
+    }
+    &_redis {
+      top: 230px;
+      left: 12px;
+      background: linear-gradient(270deg, rgba(44, 90, 244, 0) 0%, rgba(164, 0, 255, 0.3) 65.79%);
+    }
+    &_javascript {
+      top: 270px;
+      left: 200px;
+      background: linear-gradient(270deg, rgba(44, 90, 244, 0) 9.16%, rgba(164, 0, 255, 0.3) 30.9%, rgba(44, 90, 244, 0) 87.54%);
+    }
+  }
 }
+
+@keyframes RuletRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+//@keyframes AnimationName {
+//  0%{ background-position: 0 100%}
+//  70%{ background-position: 20% 0%}
+//  90%{ background-position: 100% 0%}
+//  100%{ background-position: 0 100%}
+//}
+
