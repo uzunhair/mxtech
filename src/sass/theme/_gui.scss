@@ -48,8 +48,12 @@
   }
 
   &__desc {
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
+
+    @include media-breakpoint-up(lg) {
+      font-size: 18px;
+    }
   }
 
   &__row {

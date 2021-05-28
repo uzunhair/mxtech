@@ -1,11 +1,11 @@
 .start {
   background: #000000 url("../img/start.jpg") no-repeat;
   background-size: cover;
-  height: 100vh;
   color: #ffffff;
 
   @include media-breakpoint-up(md) {
     text-align: center;
+    height: 100vh;
   }
 
   &__body {
@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 4rem;
+    margin-top: 46px;
   }
 
   &__title {

@@ -75,13 +75,14 @@ $utilities: map-get-multiple($utilities, (
   //"negative-margin-end",
   //"negative-margin-bottom",
   //"negative-margin-start",
-  //"padding",
+  "padding",
   //"padding-x",
   //"padding-y",
   //"padding-top",
   //"padding-end",
   //"padding-bottom",
-  //"padding-start",
+  "padding-start",
+  "position",
   "text-align",
 ));
 // Utilities

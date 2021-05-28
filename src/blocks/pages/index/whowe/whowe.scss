@@ -1,12 +1,18 @@
 .whowe {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
   overflow: hidden;
+  padding-top: 38px;
+  padding-bottom: 38px;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
 
   &__container {
     position: relative;
-    padding: 5rem 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     z-index: 1;
     &:after {
       content: "";
@@ -34,11 +40,18 @@
       animation-duration: 10s;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
+      z-index: -1;
     }
   }
 
   &__title {
-    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 42px;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 20px;
+    }
   }
 
   &__desc {

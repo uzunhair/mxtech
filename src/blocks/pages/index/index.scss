@@ -1,3 +1,6 @@
 .market {
-  margin-bottom: 210px;
+  margin-bottom: 112px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 210px;
+  }
 }
