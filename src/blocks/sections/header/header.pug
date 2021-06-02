@@ -9,7 +9,7 @@ header.header.layout-navbar
 				ul.navbar-nav.ms-auto
 					each link,title in header.nav
 						li.nav-item(class={active: link === pageLink})
-							a.nav-link.js_header__close(href= link)=title
+							a.nav-link.js_header__close(href=link, name=link)=title
 			.header__social
 				a.footer__social-item(href="#")
 					+icon("FB")
