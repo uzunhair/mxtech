@@ -1,5 +1,7 @@
 .worth {
   margin-bottom: 170px;
+  overflow: hidden;
+  padding-top: 40px;
   @include media-breakpoint-up(lg) {
     margin-bottom: 210px;
   }
@@ -14,10 +16,15 @@
         content: "";
         background: url("../img/worth-star.svg");
         position: absolute;
-        right: -60px;
-        top: -20px;
+        right: -20px;
+        top: -40px;
         width: 50px;
         height: 50px;
+
+        @include media-breakpoint-up(lg) {
+          right: -60px;
+          top: -20px;
+        }
       }
     }
   }
@@ -29,14 +36,6 @@
     left: -40px;
     bottom: -80px;
     background: url("../img/worth-star.svg") no-repeat;
-  }
-  &__row {
-    margin-right: -2rem;
-    margin-left: -2rem;
-  }
-  &__item {
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
   &__item-title {
     font-family: 'Gilroy';
@@ -59,7 +58,7 @@
 }
 
 .market__title {
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     margin-top: 40px;
     margin-bottom: 20px;
   }

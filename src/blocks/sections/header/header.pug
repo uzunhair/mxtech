@@ -1,6 +1,6 @@
 header.header.layout-navbar
 	.container
-		nav.navbar.navbar-expand-lg.navbar-dark
+		nav.navbar.navbar-expand-md.navbar-dark
 			a.navbar-brand(href='#')
 				img(src='./img/logo.svg' alt='' width='67' height='25')
 			button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
@@ -9,6 +9,14 @@ header.header.layout-navbar
 				ul.navbar-nav.ms-auto
 					each link,title in header.nav
 						li.nav-item(class={active: link === pageLink})
-							a.nav-link(href= link)=title
+							a.nav-link.js_header__close(href= link)=title
+			.header__social
+				a.footer__social-item(href="#")
+					+icon("FB")
+					.footer__social-hover
+				a.footer__social-item(href="#")
+					+icon("IN")
+				a.footer__social-item(href="#")
+					+icon("TW")
 
 		block header

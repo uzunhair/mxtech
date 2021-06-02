@@ -56,6 +56,10 @@
     }
   }
 
+  &__parent {
+    overflow: hidden;
+  }
+
   &__row {
     margin-left: -2rem;
     margin-right: -2rem;

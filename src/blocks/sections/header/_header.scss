@@ -1,5 +1,58 @@
 .header {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  transition: background-color 0.2s;
   .nav-item + .nav-item {
-    margin-left: 28px;
+    @include media-breakpoint-up(md) {
+      margin-left: 28px;
+    }
+  }
+
+  &__social {
+    display: none;
+  }
+
+  &__show {
+    @include media-breakpoint-down(md) {
+      overflow: hidden;
+      .header {
+        height: 100vh !important;
+        background: #020006;
+
+        &__social {
+          display: flex;
+          align-self: flex-end;
+          margin-bottom: 40px;
+          width: 100%;
+          justify-content: center;
+        }
+
+        .container, .navbar {
+          height: 100%;
+        }
+
+        .navbar {
+          align-items: flex-start;
+        }
+      }
+    }
+    .navbar-collapse {
+      height: auto !important;
+      align-self: center;
+    }
+    .collapse:not(.show) {
+      display: flex;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .navbar-nav {
+      align-items: center;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffffff;
+    }
   }
 }

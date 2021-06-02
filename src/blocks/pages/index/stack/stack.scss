@@ -1,11 +1,11 @@
 .stack {
   padding-top: 100px;
-  margin-bottom: 94px;
+  margin-bottom: 54px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
   @include media-breakpoint-up(lg) {
-    margin-bottom: 330px;
+    margin-bottom: 290px;
   }
   &__title {
     position: relative;
@@ -55,6 +55,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include media-breakpoint-up(md) {
+      right: 0;
+    }
 
     @include media-breakpoint-up(lg) {
       position: relative;
