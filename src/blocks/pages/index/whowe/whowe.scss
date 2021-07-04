@@ -1,7 +1,7 @@
 .whowe {
   overflow: hidden;
   padding-top: 38px;
-  padding-bottom: 38px;
+  padding-bottom: 8px;
 
   @include media-breakpoint-up(lg) {
     min-height: 100vh;
@@ -23,6 +23,9 @@
       left: 0;
       top: 0;
       z-index: -1;
+      animation: opacity 3s alternate infinite;
+      animation-delay: 1s;
+      animation-timing-function: ease-in-out;
 
       @include media-breakpoint-up(lg) {
         background-position: -74px 50%;

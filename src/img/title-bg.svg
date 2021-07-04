@@ -1,79 +1,79 @@
 <svg width="284" height="84" viewBox="0 0 284 84" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.2">
-<circle cx="2" cy="2" r="2" fill="white"/>
-<circle cx="22" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="42" cy="2" r="2" fill="white"/>
-<circle cx="62" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="82" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="102" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="122" cy="2" r="2" fill="white"/>
-<circle cx="142" cy="2" r="2" fill="white"/>
-<circle cx="162" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="182" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="202" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="222" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="242" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="262" cy="2" r="2" fill="white"/>
-<circle cx="282" cy="2" r="2" fill="#BA3EFF"/>
-<circle cx="2" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="22" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="42" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="62" cy="22" r="2" fill="white"/>
-<circle cx="82" cy="22" r="2" fill="white"/>
-<circle cx="102" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="122" cy="22" r="2" fill="white"/>
-<circle cx="142" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="162" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="182" cy="22" r="2" fill="white"/>
-<circle cx="202" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="222" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="242" cy="22" r="2" fill="#BA3EFF"/>
-<circle cx="262" cy="22" r="2" fill="white"/>
-<circle cx="282" cy="22" r="2" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 282 42)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 262 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 242 42)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 222 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 202 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 182 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 162 42)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 142 42)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 122 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 102 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 82 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 62 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 42 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 22 42)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 2 42)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 282 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 262 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 242 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 222 62)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 202 62)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 182 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 162 62)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 142 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 122 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 102 62)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 82 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 62 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 42 62)" fill="#BA3EFF"/>
-<circle r="2" transform="matrix(-1 0 0 1 22 62)" fill="white"/>
-<circle r="2" transform="matrix(-1 0 0 1 2 62)" fill="#BA3EFF"/>
-<circle cx="2" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="22" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="42" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="62" cy="82" r="2" fill="white"/>
-<circle cx="82" cy="82" r="2" fill="white"/>
-<circle cx="102" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="122" cy="82" r="2" fill="white"/>
-<circle cx="142" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="162" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="182" cy="82" r="2" fill="white"/>
-<circle cx="202" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="222" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="242" cy="82" r="2" fill="#BA3EFF"/>
-<circle cx="262" cy="82" r="2" fill="white"/>
-<circle cx="282" cy="82" r="2" fill="#BA3EFF"/>
+<g opacity="0.3">
+<circle class="star twinkle-star-1" cx="2" cy="2" r="2" fill="white"/>
+<circle class="star twinkle-star-2" cx="22" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-3" cx="42" cy="2" r="2" fill="white"/>
+<circle class="star twinkle-star-4" cx="62" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-5" cx="82" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-6" cx="102" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-7" cx="122" cy="2" r="2" fill="white"/>
+<circle class="star twinkle-star-8" cx="142" cy="2" r="2" fill="white"/>
+<circle class="star twinkle-star-9" cx="162" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-10" cx="182" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-11" cx="202" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-12" cx="222" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-13" cx="242" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-14" cx="262" cy="2" r="2" fill="white"/>
+<circle class="star twinkle-star-15" cx="282" cy="2" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-16" cx="2" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-17" cx="22" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-18" cx="42" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-19" cx="62" cy="22" r="2" fill="white"/>
+<circle class="star twinkle-star-20" cx="82" cy="22" r="2" fill="white"/>
+<circle class="star twinkle-star-21" cx="102" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-22" cx="122" cy="22" r="2" fill="white"/>
+<circle class="star twinkle-star-23" cx="142" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-24" cx="162" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-25" cx="182" cy="22" r="2" fill="white"/>
+<circle class="star twinkle-star-26" cx="202" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-27" cx="222" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-28" cx="242" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-29" cx="262" cy="22" r="2" fill="white"/>
+<circle class="star twinkle-star-30" cx="282" cy="22" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-31" r="2" transform="matrix(-1 0 0 1 282 42)" fill="white"/>
+<circle class="star twinkle-star-32" r="2" transform="matrix(-1 0 0 1 262 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-33" r="2" transform="matrix(-1 0 0 1 242 42)" fill="white"/>
+<circle class="star twinkle-star-34" r="2" transform="matrix(-1 0 0 1 222 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-35" r="2" transform="matrix(-1 0 0 1 202 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-36" r="2" transform="matrix(-1 0 0 1 182 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-37" r="2" transform="matrix(-1 0 0 1 162 42)" fill="white"/>
+<circle class="star twinkle-star-38" r="2" transform="matrix(-1 0 0 1 142 42)" fill="white"/>
+<circle class="star twinkle-star-39" r="2" transform="matrix(-1 0 0 1 122 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-40" r="2" transform="matrix(-1 0 0 1 102 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-41" r="2" transform="matrix(-1 0 0 1 82 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-42" r="2" transform="matrix(-1 0 0 1 62 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-43" r="2" transform="matrix(-1 0 0 1 42 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-44" r="2" transform="matrix(-1 0 0 1 22 42)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-45" r="2" transform="matrix(-1 0 0 1 2 42)" fill="white"/>
+<circle class="star twinkle-star-46" r="2" transform="matrix(-1 0 0 1 282 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-47" r="2" transform="matrix(-1 0 0 1 262 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-48" r="2" transform="matrix(-1 0 0 1 242 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-49" r="2" transform="matrix(-1 0 0 1 222 62)" fill="white"/>
+<circle class="star twinkle-star-50" r="2" transform="matrix(-1 0 0 1 202 62)" fill="white"/>
+<circle class="star twinkle-star-51" r="2" transform="matrix(-1 0 0 1 182 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-52" r="2" transform="matrix(-1 0 0 1 162 62)" fill="white"/>
+<circle class="star twinkle-star-53" r="2" transform="matrix(-1 0 0 1 142 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-54" r="2" transform="matrix(-1 0 0 1 122 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-55" r="2" transform="matrix(-1 0 0 1 102 62)" fill="white"/>
+<circle class="star twinkle-star-56" r="2" transform="matrix(-1 0 0 1 82 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-57" r="2" transform="matrix(-1 0 0 1 62 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-58" r="2" transform="matrix(-1 0 0 1 42 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-59" r="2" transform="matrix(-1 0 0 1 22 62)" fill="white"/>
+<circle class="star twinkle-star-60" r="2" transform="matrix(-1 0 0 1 2 62)" fill="#BA3EFF"/>
+<circle class="star twinkle-star-61" cx="2" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-62" cx="22" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-63" cx="42" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-64" cx="62" cy="82" r="2" fill="white"/>
+<circle class="star twinkle-star-65" cx="82" cy="82" r="2" fill="white"/>
+<circle class="star twinkle-star-66" cx="102" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-67" cx="122" cy="82" r="2" fill="white"/>
+<circle class="star twinkle-star-68" cx="142" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-69" cx="162" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-70" cx="182" cy="82" r="2" fill="white"/>
+<circle class="star twinkle-star-71" cx="202" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-72" cx="222" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-73" cx="242" cy="82" r="2" fill="#BA3EFF"/>
+<circle class="star twinkle-star-74" cx="262" cy="82" r="2" fill="white"/>
+<circle class="star twinkle-star-75" cx="282" cy="82" r="2" fill="#BA3EFF"/>
 </g>
 </svg>
